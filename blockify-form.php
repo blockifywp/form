@@ -35,7 +35,7 @@ const DS   = DIRECTORY_SEPARATOR;
 const DIR  = __DIR__ . DS;
 const FILE = __FILE__;
 
-add_action( 'after_setup_theme', NS . 'register' );
+add_action( 'init', NS . 'register' );
 /**
  * Registers the block.
  *
